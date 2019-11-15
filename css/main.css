@@ -60,7 +60,20 @@ html {
 }
 
 .masthead a:hover {
-  background-color: rgba(180, 220, 255, .3);
+  background-color: rgba(180, 220, 255, .2);
+  border: 2px solid white;
+}
+
+header a:focus {
+  outline: 5px solid #fff;
+}
+
+.techniques a:focus {
+  outline: 5px solid #000;
+}
+
+.satellites a:focus {
+  outline: 5px solid yellow;
 }
 
 .techniques {
